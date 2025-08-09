@@ -50,7 +50,7 @@ def main():
             for obj in shots:
                 if obj.did_collide(item):
                     obj.kill()
-                    item.kill()
+                    item.split()
 
         pygame.display.flip()
 
